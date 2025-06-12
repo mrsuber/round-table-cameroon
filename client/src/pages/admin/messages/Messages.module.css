@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.usersHeader {
+  background-color: #fff;
+  width: 19%;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 1;
+  top: 6.8rem;
+}
+.mainSidebar {
+  top: 14rem;
+  background-color: #fff;
+  position: fixed;
+  width: 19%;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: #fff;
+  height: 100%;
+  flex: 30%;
+}
+
+.chatting {
+  box-sizing: border-box;
+  padding: 0 0px 0 70px;
+  flex: 100%;
+  background: #fff;
+}
+.conversing {
+  display: flex;
+  flex-direction: column;
+}
+.conversation {
+  padding: 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.conversing::-webkit-scrollbar {
+  display: none;
+}
+
+.conversing {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.chats::-webkit-scrollbar {
+  display: none;
+}
+
+.chats {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.column {
+  width: 100%;
+  padding-right: 40px;
+}
+.columnRight {
+  width: 100%;
+  padding-left: 40px;
+}
+.chatInput {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+}
+.sendIcon {
+  background-color: #003b33;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.inputActions {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.chatDay {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    position: relative;
+    margin-top: 11vh;
+    width: 100%;
+  }
+  .chatting {
+    display: none;
+  }
+  .chats {
+    flex: 100%;
+  }
+  .chatInput {
+    position: relative;
+  }
+  .conversation {
+    min-height: auto;
+    padding: 10px;
+    z-index: 0;
+  }
+}

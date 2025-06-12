@@ -1,0 +1,17 @@
+.container {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.project {
+  color: #073b4c;
+  font-size: 20px;
+}
+
+.project__title {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}

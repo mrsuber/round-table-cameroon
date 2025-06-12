@@ -1,0 +1,100 @@
+/* Admin styles  */
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+.sidebar {
+  width: 12%;
+  margin-right: 10rem;
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+  padding-right: 3rem;
+}
+.adminContainer {
+  display: flex;
+  border-left: 1px solid grey;
+}
+.adminContent {
+  padding-left: 15%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f3f4f8;
+  min-height: 100vh;
+}
+.actionButtons {
+  display: flex;
+  align-items: center;
+}
+.addColumnBtn {
+  margin-left: 10px;
+}
+.adminChildren {
+  overflow-y: scroll;
+}
+.adminChildren::-webkit-scrollbar {
+  display: none;
+}
+.adminChildren {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px 34px 0;
+}
+.headerBack {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 12px;
+  cursor: pointer;
+}
+.headerBack:hover {
+  opacity: 0.85;
+}
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 6px;
+}
+.contributors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contibutorText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}
+.contributors {
+  margin: 20px 0;
+}
+.mobileNavs {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .adminContent {
+    padding-left: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 10px;
+  }
+  .adminChildren {
+    margin-top: 10px;
+  }
+  .contributors {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .addColumnBtn {
+    margin-left: 0px;
+  }
+  /* new styles */
+  .sidebar {
+    width: 38%;
+    margin-right: 20px;
+  }
+}

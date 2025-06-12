@@ -1,0 +1,34 @@
+.container {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.note {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.note p {
+  /* width: 50%; */
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(166, 166, 166)
+}
+
+.image {
+  height: 100px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+}

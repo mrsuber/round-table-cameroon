@@ -1,0 +1,91 @@
+.left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.left h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  color: #00262a;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.head {
+  opacity: 0;
+  animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.left .icons {
+  margin-bottom: 1.6rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.left p {
+  margin-bottom: 1.6rem;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #00262a;
+}
+
+.left .forgot__password {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 420px;
+  margin-bottom: 2rem;
+}
+
+.left .forgot__password a {
+  text-decoration: none;
+  color: #006557;
+}
+
+.left .btn1 {
+  border: 2px solid #fff;
+  background: #003b33;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left .btn1:hover {
+  background: #b0e4dd;
+  color: #003b33;
+  border: 2px solid #003b33;
+}
+
+.left form {
+  width: 384px;
+}

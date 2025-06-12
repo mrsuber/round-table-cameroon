@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.password {
+  display: flex;
+  align-items: flex-start;
+}
+.emailText {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.save {
+  width: 40%;
+}
+
+.passwordHeading {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.passwords {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.save {
+  margin: 60px 0 40px;
+  width: 30%;
+}
+.deleteAccount {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.deleteAccount p {
+  font-size: 14px;
+}
+.headings {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 12px 0;
+}
+.delete {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.delete:hover {
+  opacity: 0.6;
+}
+.passInputLeft {
+  width: 80%;
+}
+.passInputRight {
+  width: 80%;
+  padding-left: 14px;
+}
+@media screen and (max-width: 1000px) {
+  .save {
+    width: 90%;
+  }
+  .passwords {
+    flex-direction: column;
+  }
+  .passInputRight {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}

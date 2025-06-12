@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  /* flex: 30%; */
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  min-width: 250px;
+  box-sizing: border-box;
+}
+.headingTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.addIcon {
+  color: #006557;
+  background-color: #e6f6f4;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 16px;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.addIcon:hover {
+  border: 1px solid rgba(0, 101, 87, 0.5);
+  transition: 0.3s linear;
+}
+.actionButtons {
+  display: flex;
+  align-items: center;
+}
+.columnProjects {
+  display: flex;
+  flex-direction: column;
+}
+.actionsDropdown {
+  position: relative;
+}

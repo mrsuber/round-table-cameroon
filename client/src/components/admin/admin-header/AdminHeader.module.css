@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0px 10px;
+  position: fixed;
+  width: calc(100% - 16%);
+  box-sizing: border-box;
+  right: 0;
+  top: 11vh;
+  float: right;
+  z-index: 1000;
+  background-color: white;
+}
+.actions {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: none;
+  }
+}

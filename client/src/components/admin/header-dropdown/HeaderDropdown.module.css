@@ -1,0 +1,15 @@
+.dropdown {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  /* margin-top: 25px; */
+  position: absolute;
+  z-index: 99999;
+  padding: 8px;
+  top: 60px;
+  right: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 160px;
+}

@@ -1,0 +1,123 @@
+.chatting {
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  padding-top: 6rem;
+  min-height: 100vh;
+}
+.cahtting::-webkit-scrollbar {
+  display: none;
+}
+
+.cahtting {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.conversing {
+  display: flex;
+  flex-direction: column;
+}
+
+.conversation {
+  /* padding: 20px 0 0; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.conversing::-webkit-scrollbar {
+  display: none;
+}
+
+.conversing {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.column {
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.columnRight {
+  padding-left: 40px;
+  position: relative;
+  align-items: flex-end;
+}
+
+.chatDay {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.backArrow {
+  display: none;
+}
+.scrollView {
+  /* background-color: blue; */
+  height: 70vh;
+  margin-top: 6.5rem;
+}
+.scrollView::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollView {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.uploadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.3);
+  margin: 8px 8px 0 0;
+}
+.coverPreviews {
+  display: flex;
+  margin-top: 4px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 3px;
+  position: fixed;
+  bottom: 5rem;
+  z-index: 0;
+}
+
+/* mobile designs */
+@media screen and (max-width: 1000px) {
+  .chatting {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100vh;
+    background-color: #fff;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .column {
+    padding-right: 0;
+  }
+  .backArrow {
+    display: block;
+    margin-right: 20px;
+  }
+}

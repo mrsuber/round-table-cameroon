@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 4000;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(241, 241, 241, 0.4);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f8;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 84, 73, 0.3);    
+}
+.close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}

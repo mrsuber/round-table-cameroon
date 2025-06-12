@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.content {
+  display: flex;
+}
+.images {
+  overflow: hidden;
+}
+
+.images img {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.09);
+}
+
+.images img:nth-child(2) {
+  margin-left: -1rem;
+}
+
+.images img:nth-child(3) {
+  margin-left: -1rem;
+}
+.images img:nth-child(4) {
+  margin-left: -1rem;
+}
+.images img:nth-child(5) {
+  margin-left: -1rem;
+}
+.images img:nth-child(6) {
+  margin-left: -1rem;
+}
+.images img:hover {
+  opacity: 0.85;
+  transition: 0.3s ease-in-out;
+}

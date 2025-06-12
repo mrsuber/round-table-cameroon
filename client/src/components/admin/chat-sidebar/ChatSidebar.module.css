@@ -1,0 +1,22 @@
+.chatsItems {
+  position: relative;
+  overflow-y: scroll;
+  max-height: 77vh;
+  max-width: 100%;
+  background-color: #fff;
+}
+.chatsItems::-webkit-scrollbar {
+  display: none;
+}
+
+.chatsItems {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .chatsItems {
+    height: auto;
+    min-height: auto;
+  }
+}

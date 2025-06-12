@@ -1,0 +1,52 @@
+.containers {
+}
+.heading {
+  display: flex;
+  font-family: Inter;
+  font-size: 17px;
+}
+#camsolText {
+}
+#magazineText {
+  color: #036e67;
+  margin-left: 10px;
+}
+.section {
+  margin: 7rem 0;
+}
+.subHeading {
+  color: #717171;
+  margin-bottom: 6px;
+}
+.magLinksContainer {
+  width: 100%; /* Set a fixed width for the container */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+.magLinks {
+  margin: 28px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+.magLink {
+  padding: 10px 14px;
+  border-radius: 6px;
+  background-color: #efefef;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.allBtn {
+  background-color: #036e67;
+  color: #fff;
+}
+.magLink:hover {
+  background: #c5c5c5;
+}
+.magazineCards {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-top: 16px;
+}

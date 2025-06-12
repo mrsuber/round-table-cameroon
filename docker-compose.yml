@@ -1,0 +1,56 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo
+    restart: always
+    volumes:
+      - ./mongodb:/data/db
+    # ports:
+    #   - '27017:27017'
+    # environment:
+    #   MONGO_INITDB_ROOT_USERNAME: root
+    #   MONGO_INITDB_ROOT_PASSWORD: example
+    # frontend:
+    #   container_name: round-table-react
+    #   build:
+    #     context: ./client/
+    #   init: true
+    #   command: npm run start -- -H 0.0.0.0
+    #   ports:
+    #     - 3000:3000
+    #   environment:
+    #     REACT_APP_BACKEND_BASE_URL: http://localhost:8080
+    #     REACT_APP_GOOGLE_API_KEY: AIzaSyAEZ4XfqC6HKu21RLJ1g06rdGnNz4fKwIo
+    #   stdin_open: true
+    #   tty: true
+    #   depends_on:
+    #     - backend
+  backend:
+    container_name: round-table-express
+    build:
+      context: ./
+    volumes:
+      - /src/node_modules
+      - ./public:/src/public
+    ports:
+      - 8080:8080
+    environment:
+      MONGO_URI: mongodb://mongo:27017/round-table
+      PORT: 8080
+      MAIL_EMAIL: jam3sm3y3rs@gmail.com
+      MAIL_PASSWORD: qedjelefgphjdwkz
+      JWT_SECRET: SSSSHHHHH
+      TOKEN_JWT_EXPIRY: 1800
+      REFRESH_TOKEN_JWT_EXPIRY: 172800
+      OTP_EXPIRY: 60
+      RESET_TOKEN_SECRET: it_is_a_secret
+      NODE_ENV: production
+      SUPER_ADMIN_EMAIL: ndipnobertetta@gmail.com
+      SUPER_ADMIN_PASSWORD: 12345678
+      SUPER_ADMIN_FIRST_NAME: Nobert
+      SUPER_ADMIN_LAST_NAME: Etta
+      APP_HOST: http://localhost:8080
+    stdin_open: true
+    tty: true
+    depends_on:
+      - mongo

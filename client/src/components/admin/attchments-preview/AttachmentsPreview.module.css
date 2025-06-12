@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.prevItem {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+.image {
+  width: 25px;
+  height: 30px;
+  /* margin: 10px; */
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.names {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.name {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.author {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+  color: #828282;
+}
+.size {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+.download {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2f80ed;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.download:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.dragDrop {
+  background: #f2f2f2;
+  border: 1px dashed #bdbdbd;
+  border-radius: 8px;
+  height: 88px;
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.chooseFile {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4f4f4f;
+}

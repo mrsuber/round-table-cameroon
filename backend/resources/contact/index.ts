@@ -1,0 +1,10 @@
+export { default as Form } from '@/resources/contact/interfaces/form.interface'
+export { default as FormModel } from '@/resources/contact/models/form.model'
+export { default as Partner } from '@/resources/contact/interfaces/partner.interface'
+export { default as PartnerModel } from '@/resources/contact/models/partner.model'
+export { default as Subscriber } from '@/resources/contact/interfaces/subscriber.interface'
+export { default as SubscriberModel } from '@/resources/contact/models/subscriber.model'
+
+export { default as ContactService } from '@/resources/contact/contact.service'
+export { default as ContactController } from '@/resources/contact/contact.controller'
+export { default as validate } from '@/resources/contact/contact.validation'

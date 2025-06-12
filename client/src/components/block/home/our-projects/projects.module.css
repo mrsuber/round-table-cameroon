@@ -1,0 +1,147 @@
+.wrapper {
+  padding: 64px;
+}
+
+.container {
+  background-color: #003136;
+  border-radius: 25px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.content__wrapper {
+  display: flex;
+  overflow: auto;
+  gap: 16px;
+  overflow-x: scroll;
+}
+
+.content__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  color: #e6ebed;
+}
+
+.headline {
+  /* padding: 0 0 0 40px; */
+}
+
+.headline h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  margin: 3rem 0;
+  color: #e6ebed;
+}
+
+.logos img {
+  width: 64px;
+  height: 64px;
+  border: 2px solid var(--Foundation-RT-White-Light);
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.logos img:nth-child(2) {
+  margin-left: -2rem;
+}
+.logos img:hover {
+  transform: scale(1.1);
+}
+
+.logos img:nth-child(3) {
+  margin-left: -2rem;
+}
+.logos img:nth-child(4) {
+  margin-left: -2rem;
+}
+.logos img:nth-child(5) {
+  margin-left: -2rem;
+}
+.logos img:nth-child(6) {
+  margin-left: -2rem;
+}
+.logos img:nth-child(6) {
+  margin-left: -2rem;
+}
+.logos img:nth-child(8) {
+  margin-left: -2rem;
+}
+
+.donations__wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.donations__text_div{
+  width: auto;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    padding: 0;
+  }
+  .container {
+    border-radius: 0;
+  }
+  .partners {
+    margin-bottom: 6rem;
+  }
+  .partners h3 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  .logos img {
+    width: 48px;
+    height: 48px;
+  }
+  .logos img:nth-child(2) {
+    margin-left: -3rem;
+  }
+
+  .logos img:nth-child(3) {
+    margin-left: -3rem;
+  }
+  .logos img:nth-child(4) {
+    margin-left: -3rem;
+  }
+
+  .headline h3 {
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  .content__wrapper {
+    /* padding: 32px; */
+    overflow-x: hidden;
+    /* position: fixed; */
+  }
+
+  .partners {
+    padding: 32px;
+  }
+  .headline {
+    padding: 0 32px;
+  }
+}

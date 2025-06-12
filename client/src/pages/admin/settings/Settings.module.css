@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  display: flex;
+  flex: 20%;
+  border-right: 1px solid #e6e6e6;
+  padding-top: 30px;
+}
+.content {
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.rightButton {
+  width: 100%;
+  padding-left: 13px;
+}
+.leftButton {
+  width: 100%;
+}
+.actionButtons {
+  display: flex;
+  margin-top: 80px;
+}
+@media screen and (max-width: 1000px) {
+  .actionButtons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+  }
+  .rightButton {
+    padding: 0;
+    margin-top: 20px;
+  }
+}

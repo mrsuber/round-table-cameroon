@@ -1,0 +1,52 @@
+.container {
+  background-color: #003b33;
+  padding: 18px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 50%; */
+  width: 194px;
+  height: 220px;
+}
+.number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 22px 0 0;
+}
+.label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.totalProjects {
+  padding-left: 18px;
+  padding-top: 5px;
+  align-items: center;
+}
+.projectNum {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px 0 4px;
+}
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}

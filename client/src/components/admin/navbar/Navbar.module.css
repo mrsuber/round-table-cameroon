@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 0px 20px;
+  width: calc(100% - 14%);
+  box-sizing: border-box;
+  top: 0;
+  height: 11vh;
+  right: 0;
+  float: right;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  margin: 0;
+  color: #1c1d22;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+.navItemsShow {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.calender {
+  display: flex;
+  align-items: center;
+}
+.calValue {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(28, 29, 34, 0.5);
+  margin-left: 10px;
+}
+.calenderTile {
+}
+.Sample__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.Sample__container > * > * {
+  margin: 10px;
+}
+
+.Sample__container__content {
+  display: flex;
+  max-width: 100%;
+  flex-basis: 420px;
+  flex-direction: column;
+  flex-grow: 100;
+  align-items: stretch;
+  padding-top: 1em;
+}
+
+.Sample__container__content .react-calendar {
+  margin: 0 auto;
+}
+.searchInput {
+  width: 100%;
+  margin-right: 20px;
+}
+.navItemsSub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.mobileSearch {
+  display: none;
+}
+.mobileNotification {
+  display: none;
+}
+.mobileCalIcon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    background-color: #003b33;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0px 26px;
+  }
+  .title {
+    display: none;
+  }
+  .head {
+    display: none;
+  }
+  .hamburgerIcon {
+  }
+  .navItems {
+    width: 100%
+  }
+  .navItemsSub {
+    justify-content: flex-end;
+    color: white
+  }
+  .navItemsShow {
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .notification {
+    margin: 0 20px;
+  }
+  .calender {
+    margin-right: 16px;
+  }
+  .mobileSearch {
+    display: block;
+  }
+  .search {
+    display: none;
+  }
+  .mobileNotification {
+    display: block;
+    margin: 0 16px;
+  }
+  .notification {
+    display: none;
+  }
+  .calValue {
+    color: #fff;
+  }
+  .calIcon {
+    display: none;
+  }
+  .mobileCalIcon {
+    display: block;
+  }
+  .calenderHide {
+    margin-right: 16px;
+    display: none;
+  }
+}

@@ -1,0 +1,5 @@
+export { default as ProjectController } from '@/resources/project/project.controller'
+export { default as Project } from '@/resources/project/project.interface'
+export { default as ProjectModel } from '@/resources/project/project.model'
+export { default as ProjectService } from '@/resources/project/project.service'
+export { default as validate } from '@/resources/project/project.validation'

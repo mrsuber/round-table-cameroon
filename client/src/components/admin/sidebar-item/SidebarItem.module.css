@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  cursor: pointer;
+  color: #929283;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.activeContainer {
+  background-color: #e6f0f1;
+  color: #00262a;
+  box-sizing: border-box;
+}
+.container:hover {
+  opacity: 0.8;
+}

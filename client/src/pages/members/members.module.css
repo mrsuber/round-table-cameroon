@@ -1,0 +1,59 @@
+.card__wrapper {
+  padding: 27px 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.heading__styles {
+  padding-top: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #b0e4dd;
+  margin-bottom: 2rem;
+}
+.descr {
+  margin-bottom: 7rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  color: #00262a;
+}
+
+.all__memebers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  color: #00262a;
+}
+
+.chevron__down {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 600) {
+  .card__wrapper {
+    padding: 27px 3.2rem;
+  }
+}

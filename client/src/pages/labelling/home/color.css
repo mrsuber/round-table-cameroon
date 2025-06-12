@@ -1,0 +1,16 @@
+.small .react-colorful {
+    height: 130px;
+    width: 130px;
+  }
+  .small .react-colorful__saturation {
+    border-radius: 4px 4px 0 0;
+  }
+  .small .react-colorful__hue {
+    height: 20px;
+    border-radius: 0 0 4px 4px;
+  }
+  .small .react-colorful__hue-pointer {
+    width: 8px;
+    height: 8px;
+    border-radius: 0;
+  }

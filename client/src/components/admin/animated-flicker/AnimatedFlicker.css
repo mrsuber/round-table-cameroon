@@ -1,0 +1,10 @@
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.animate-flicker {
+    animation: fadeIn 5s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  cursor: pointer;
+}
+.container:hover {
+  opacity: 0.9;
+}
+.notified {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FFA048;
+}
+.bellIcon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,65 @@
+.navSwitchContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12vh 0 10vh  
+}
+.navSwitch {
+  display: flex;
+  align-items: center;
+}
+.switchItem {
+  padding: 5px 20px;
+  color: #adadad;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.switchItemActive {
+  color: #000000;
+  border: 1px solid #adadad;
+  font-weight: 600;
+}
+.container {
+  /* background: green; */
+}
+/* home view */
+
+/* edit view */
+.editView {
+  display: flex;
+}
+.editViewLeft {
+  display: flex;
+  flex: 30%;
+  padding-right: 20px;
+  row-gap: 20px;
+  flex-direction: column;
+}
+.editViewLeftBottom {
+}
+.chooseBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chooseBgText {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 4px;
+}
+.editViewRight {
+  flex: 70%;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}

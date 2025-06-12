@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container:disabled {
+  background-color: #929283;
+  color: #929283;
+  cursor: not-allowed;
+  border: none;
+}
+.container:hover {
+  opacity: 0.85;
+}
+.texts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 14px;
+  }
+}

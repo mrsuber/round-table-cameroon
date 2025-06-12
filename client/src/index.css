@@ -1,0 +1,121 @@
+/** GLOBAL FONT FAMILY *******************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: var(--roboto-fonts);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-weight: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+:root {
+  --roboto-fonts: 'Roboto', sans-serif;
+
+  --Foundation-RT-Green-Darker: #003b33;
+  --Foundation-RT-Green-Dark-active: #004c41;
+  --Foundation-RT-Green-Dark-hover: #006557;
+  --Foundation-RT-Green-Dark: #007f6d;
+  --Foundation-RT-Green-Normal-active: #008774;
+  --Foundation-RT-Green-Normal-hover: #009883;
+  --Foundation-RT-Green-Normal: #00a991;
+  --Foundation-RT-Green-Light-active: #b0e4dd;
+  --Foundation-RT-Green-Light-hover: #d9f2ef;
+  --Foundation-RT-Green-Light: #e6f6f4;
+
+  --Foundation-RT-Green-Darker-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Darker)) var(var(--Foundation-RT-Green-Darker))
+  );
+
+  --Foundation-RT-Green-Dark-active-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Darker-active)) var(var(--Foundation-RT-Green-Darker-active))
+  );
+
+  --Foundation-RT-Green-Dark-hover-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Dark-hover)) var(var(--Foundation-RT-Green-Dark-hover))
+  );
+
+  --Foundation-RT-Green-Dark-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Dark)) var(var(--Foundation-RT-Green-Dark))
+  );
+
+  --Foundation-RT-Green-Normal-active-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Normal-active)) var(var(--Foundation-RT-Green-Normal-active))
+  );
+
+  --Foundation-RT-Green-Normal-hover-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Normal-hover)) var(var(--Foundation-RT-Green-Normal-hover))
+  );
+
+  --Foundation-RT-Green-Normal-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Normal)) var(var(--Foundation-RT-Green-Normal))
+  );
+
+  --Foundation-RT-Green-Light-active-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Light-active)) var(var(--Foundation-RT-Green-Light-active))
+  );
+
+  --Foundation-RT-Green-Light-hover-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Light-hover)) var(var(--Foundation-RT-Green-Light-hover))
+  );
+  --Foundation-RT-Green-Light-gradient: linear-gradient(
+    to top,
+    var(var(--Foundation-RT-Green-Light)) var(var(--Foundation-RT-Green-Light))
+  );
+
+  --Foundation-RT-White-Light: #fdfdfd;
+  --Foundation-RT-White-Light-hover: #fbfbfb;
+  --Foundation-RT-White-Light-active: #f7f7f7;
+  --Foundation-RT-White-Normal: #e6e6e6;
+  --Foundation-RT-White-Normal-hover: #cfcfcf;
+  --Foundation-RT-White-Normal-active: #b8b8b8;
+  --Foundation-RT-White-Dark: #adadad;
+  --Foundation-RT-White-Dark-hover: #8a8a8a;
+  --Foundation-RT-White-Dark-active: #676767;
+  --Foundation-RT-White-Darker: #515151;
+
+  --Foundation-RT-Grey-Light: #f8f8f6;
+  --Foundation-RT-Grey-Light-hover: #f4f4f1;
+  --Foundation-RT-Grey-Light-active: #e9e9e3;
+  --Foundation-RT-Grey-Normal: #b7b7a4;
+  --Foundation-RT-Grey-Normal-hover: #a5a594;
+  --Foundation-RT-Grey-Normal-active: #929283;
+  --Foundation-RT-Grey-Dark: #89897b;
+  --Foundation-RT-Grey-Dark-hover: #6e6e62;
+  --Foundation-RT-Grey-Dark-active: #52524a;
+  --Foundation-RT-Grey-Darker: #404039;
+
+  --Foundation-RT-Blue-Light: #e8ebee;
+  --Foundation-RT-Blue-Light-hover: #dde1e6;
+  --Foundation-RT-Blue-Light-active: #b9c0cb;
+  --Foundation-RT-Blue-Normal: #1d3557;
+  --Foundation-RT-Blue-Normal-hover: #1a304e;
+  --Foundation-RT-Blue-Normal-active: #172a46;
+  --Foundation-RT-Blue-Dark: #162841;
+  --Foundation-RT-Blue-Dark-hover: #112034;
+  --Foundation-RT-Blue-Dark-active: #0d1827;
+  --Foundation-RT-Blue-Darker: #0a131e;
+}

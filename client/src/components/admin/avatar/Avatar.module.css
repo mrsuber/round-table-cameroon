@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  cursor: pointer;
+  :hover {
+    opacity: 0.88;
+  }
+}

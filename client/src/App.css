@@ -1,0 +1,4 @@
+.Toastify__toast-container {
+  z-index: 99999;
+  top: 0
+}

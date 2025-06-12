@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.container {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  padding: 6px 6px 10px;
+  background-color: #00262a;
+  color: #fff;
+  align-items: center;
+  width: 90%;
+  border-radius: 10px;
+  padding-top: 16px;
+}
+.helpIcon {
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px white;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: -10px;
+}
+.helpIconInset {
+  background-color: #00262a;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.texts {
+  margin: 20px 0px 10px;
+  text-align: center;
+}
+.texts h5 {
+  margin: 0;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.texts p {
+  font-size: 10px;
+  line-height: 1.4em;
+  font-weight: 500;
+}

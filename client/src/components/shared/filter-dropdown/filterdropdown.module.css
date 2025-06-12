@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 257px;
+  height: 105px;
+  background: rgba(243, 243, 243, 0.6);
+  padding: 23px 15px;
+  gap: 1.3rem;
+  position: relative;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}

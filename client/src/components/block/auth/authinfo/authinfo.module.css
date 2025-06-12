@@ -1,0 +1,82 @@
+.auth__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+.flexDis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth__info.animate {
+  animation: anima 1s linear;
+}
+
+@keyframes anima {
+  0% {
+    top: 20%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  99% {
+    opacity: 0.8;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.flexDis .logo {
+  /* padding-bottom: .5rem; */
+}
+
+.flexDis h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.flexDis .instructions {
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  line-height: 27px;
+  text-align: center;
+  padding-top: 10px;
+  color: #fdfdfd;
+}
+
+.btn {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn:hover {
+  background: #fff;
+  color: #003b33;
+}

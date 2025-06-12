@@ -1,0 +1,87 @@
+.container {
+  padding: 64px;
+  padding-top: 95px;
+  padding-bottom: 0;
+}
+
+.project__details {
+  margin-top: 84px;
+}
+
+.project__details h3 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 39px;
+  color: #00575f;
+  margin-bottom: 48px;
+}
+
+.project__details p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 170.19%;
+  color: #073b4c;
+}
+
+.contributors {
+  margin-top: 85px;
+}
+
+.contributors__title {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 39px;
+  color: #00575f;
+  margin-bottom: 32px;
+}
+
+.duration {
+  margin-top: 75px;
+}
+
+.duration h2 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 39px;
+  color: #00575f;
+  margin-bottom: 47px;
+}
+
+.duration .estimated__time {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #00575f;
+}
+
+.duration .estimated__time span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 170.19%;
+  color: #073b4c;
+  margin-left: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 6.4rem 1.85rem;
+  }
+
+  .project__details {
+    margin-top: 37px;
+  }
+
+  .project__details h3 {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 37px;
+  }
+
+  .contributors {
+    margin-top: 37px;
+  }
+
+  .duration {
+    margin-top: 37px;
+  }
+}

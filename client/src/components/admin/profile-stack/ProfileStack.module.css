@@ -1,0 +1,17 @@
+#avatar {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.04);
+}
+
+#avatar:not(:first-child) {
+  margin-left: -1.2rem;
+  -webkit-mask: radial-gradient(circle 0px at 5px 50%, transparent 0%);
+  mask: radial-gradient(circle 0px at 5px 50%, transparent 0%);
+}
+.profiles {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

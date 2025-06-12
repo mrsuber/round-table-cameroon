@@ -1,0 +1,44 @@
+.chatInput {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 58%;
+}
+
+.inputActions {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.sendIcon {
+  background-color: #003b33;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.coverPreviews {
+  display: flex;
+  margin-top: 4px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 3px;
+  position: fixed;
+  bottom: 5rem;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .chatInput {
+    position: relative;
+    width: 100%;
+  }
+}

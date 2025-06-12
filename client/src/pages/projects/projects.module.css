@@ -1,0 +1,54 @@
+.container {
+  padding: 0 40px;
+}
+
+.header {
+  margin-top: 128px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.all__projects {
+  font-weight: 700;
+  font-size: 30px;
+  color: #00262a;
+}
+
+.header__text p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.filter__display {
+  position: absolute;
+  right: 3.5%;
+  top: 28%;
+}
+
+.card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.see__all__projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  color: #00262a;
+  margin: 132px 0;
+}
+
+.chevron__down {
+  transform: rotate(180deg);
+}

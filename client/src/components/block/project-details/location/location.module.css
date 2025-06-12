@@ -1,0 +1,31 @@
+.contianer {
+  margin-top: 86px;
+  margin-bottom: 62px;
+}
+
+.contianer h1 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 39px;
+  color: #00575f;
+  margin-bottom: 26px;
+}
+
+.contianer p {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #00575f;
+  margin-bottom: 71px;
+}
+
+.contianer p spnan {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 170.19%;
+  color: #073b4c;
+}
+
+.location {
+  padding: 0 64px;
+}

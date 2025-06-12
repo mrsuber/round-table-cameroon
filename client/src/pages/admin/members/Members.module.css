@@ -1,0 +1,21 @@
+.memberCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+.members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container {
+  padding-top: 0vh;
+}
+@media screen and (max-width: 1000px) {
+  .members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

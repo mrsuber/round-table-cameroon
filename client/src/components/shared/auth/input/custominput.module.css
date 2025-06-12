@@ -1,0 +1,47 @@
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
+  border: none;
+  width: 100%;
+  background: #f4f4f1;
+  border-radius: 3px;
+}
+.input:focus {
+  outline: none;
+}
+
+.input.left {
+  padding-left: 5rem;
+}
+
+.container {
+  display: flex;
+  display: -ms-flexbox;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;;
+}
+.container:focus-within {
+  border: 1px solid rgba(0, 59, 51, 0.8);
+  transition: 0.2s linear;
+}
+
+.container .icon {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.icon__right {
+  position: absolute;
+  right: 1.5rem;
+}
+.error__Msg {
+  color: rgb(255, 99, 99);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 10px;
+  text-align: left;
+}

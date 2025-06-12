@@ -1,0 +1,58 @@
+.container {
+  padding: 18px;
+  width: 220px;
+  height: 150px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.container:hover {
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.02);
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #004c41;
+  letter-spacing: 2px;
+}
+.name {
+  text-align: left;
+  font-size: 11px;
+  color: #008b79;
+  font-weight: 600;
+}
+.messageText {
+    margin-top: 6px;
+    font-size: 11px;
+    color: #626262;
+  }
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.date {
+  color: #626262;
+  font-size: 11px;
+}
+.state {
+  font-weight: bolder;
+  font-size: 11px;
+  color: #00262a;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
