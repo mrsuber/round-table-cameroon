@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 node_modules/
-dist/**
+#dist/**
 /.pnp
 .pnp.js
 .vscode
@@ -16,7 +16,7 @@ mongodb/
 /coverage
 
 # production
-/build
+#/build
 
 # misc
 .config.env
